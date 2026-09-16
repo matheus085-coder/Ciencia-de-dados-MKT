@@ -1,2 +1,2 @@
-# Ci-ncia-de-dados-MKT
+# Ciência-de-dados-MKT
 Atividade de ciência de dados em marketing digital
