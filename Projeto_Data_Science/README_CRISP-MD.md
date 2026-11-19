@@ -31,9 +31,9 @@ Este projeto foi desenvolvido seguindo a metodologia **CRISP-DM**, garantindo um
 ## 🛠️ Ciclo de Vida do Projeto (Fases do CRISP-DM)
 
 ### 1. Entendimento do Negócio
-* **Problema de Negócio:** [Ex: O time de retenção sofre com surpresas na saída de clientes recorrentes, sem tempo hábil para ações preventivas.]
-* **Objetivo:** [Ex: Prever com pelo menos 30 dias de antecedência quais clientes têm alta propensão ao cancelamento.]
-* **Solução Proposta:** Um modelo preditivo de Machine Learning integrado a um painel de BI atualizado diariamente para tomadas de decisão.
+* **Problema de Negócio:** A Bola de Ouro 2019 foi decidida por apenas 7 pontos entre Messi e Van Dijk, mas a votação é subjetiva e historicamente tende a valorizar métricas ofensivas (gols e assistências) em detrimento de contribuições defensivas, dificultando uma comparação objetiva entre jogadores de posições diferentes.
+* **Objetivo:** Construir um índice estatístico exploratório (Z-score normalizado por posição, 50% ofensivo + 50% defensivo) e comparar sua ordenação com a classificação oficial dos 22 finalistas de linha da Bola de Ouro 2019 com dados reais da temporada 2018–2019.
+* **Solução Proposta:** Um índice estatístico exploratório (Z-score posicional), apoiado por regressão linear e Random Forest para auditar o peso implícito de ataque e defesa na votação oficial, documentado em notebook e exportado em CSV (ranking_auditado_bola_de_ouro_2019.csv).
 
 ### 2. Entendimento dos Dados
 * **Fontes:** Dados extraídos do CRM ([Nome do sistema]) e do banco de transações ERP.
@@ -83,4 +83,4 @@ Este projeto foi desenvolvido seguindo a metodologia **CRISP-DM**, garantindo um
 
 ## 👥 Autores e Contato
 
-* **[Artur, Ariel, Francisco e Matheus]** - *Cientista de Dados / Analista de BI* - [Seu LinkedIn](https://linkedin.com)
+* **[Artur, Ariel, Francisco e Matheus]** 
